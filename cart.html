@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h2>Hello Shop</h2>
+        </div>
+        <div class="head">
+            <div class="src">
+                <input type="text" id="search" placeholder="  &#128269">
+            </div>
+        </div>
+        <div class="head">
+            <div class="menu">
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="">
+                        <li>About</li>
+                    </a>
+                    <a href="">
+                        <li>Login</li>
+                    </a>
+                    <a href="">
+                        <li>Sign Up</li>
+                    </a>
+                    <a href="">
+                        <li>&#128722 Cart</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="cart">
+        <div class="myCart">
+            <img src="picture/snickers.jpg" alt="">
+            <img src="picture/shoe.jpg" alt="">
+        </div>
+        <div class="myCart" id="pricing">
+            <span>Total Amount: <span id="count">320</span><span>&#36</span></span><br>
+            <span>Quantity: <span id="qty">1</span></span><br>
+            <div class="buttonsec">
+                <button class="btn" onclick="Bplus()" id="btnp">+</button>
+                <button class="btn" onclick="Bminus()" id="btnm">-</button><br>
+                <a href="details.html"><button class="btn" id="btnc">Details</button></a>
+                <button class="btn"  id="btnb">Buy Now</button>
+            </div>
+        </div>
+        <div class="myCart">
+            <h2>Nike Shoe</h2>
+            <p>Product code: KVY4678ALI</p>
+            <p>Brand: Nike</p>
+            <p>Product Model: Nike Air Max 23</p>
+            <p>Price: 350&#36</p>
+            <p>Manufacture: Vietnam</p>
+            <p>Size: 42</p>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="myfoot" id="info">
+            <h3 style="text-align: center; color: blanchedalmond;">Customar care</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias autem rerum dolorum nihil provident laborum
+                impedit consectetur veniam cum fugiat dolorem exercitationem est excepturi quia cupiditate incidunt
+                quibusdam facere vero, ut sequi reiciendis! Nesciunt vel fugit libero atque cupiditate eius eligendi
+                reiciendis blanditiis est, consectetur eveniet velit! Ducimus odit, provident, magni consequatur excepturi
+                dignissimos facere quas aliquam atque, ratione repudiandae dolor officia recusandae est labore. Dolore,
+                maxime eaque.</p>
+        </div>
+        <div class="myfoot" id="mypro">
+            <div class="pro">
+    
+            </div>
+            <div class="proinfo">
+                <h3>Farhan Fahmid</h3>
+                    <p>Cell: 01739673747</p>
+                    <p>Mail: fahmidfarhan671@gmail.com</p>
+                    <p>Linkedin: linkedin.com/in/farhan-fahmid-89a121223/</p> 
+            </div>
+        </div>
+    
+    </div>
+    <div class="copy">
+        <p style="text-align: center; color: black;">&copy All Right Reserved to Farhan Fahmid</p>
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>

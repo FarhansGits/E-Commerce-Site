@@ -1,0 +1,262 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(239, 239, 239);
+}
+.container{
+    top: 1px;
+    position: sticky;
+    z-index: 1000;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2fr;
+    height: 75px;
+    background-color: #2B7DA9;
+    color: white;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container .head{
+    height: 60px;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
+}
+
+#card .pcard{
+    
+    margin-top: 20px;
+    margin: 22px;
+    border-radius: 10px;
+    height: 340px;
+    width: 270px;
+    border: 2px solid cadetblue;
+    transition-duration: 1s;
+    
+}
+.pcard a span{
+    color: black;
+}
+.pcard button a{
+    color: white;
+}
+#card .pcard:hover{
+    box-shadow: 5px 5px 20px rgb(71, 71, 71);
+}
+#buy{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+.buyinfo{
+        height: 60px;
+}
+.buyinfo button{
+    margin-top: 20px;
+}
+.buyinfo span{
+    margin-left: 10px;
+}
+
+#card .pcard a{
+    text-decoration: none;
+}
+#card .pcard span{
+    font-size: 18px;
+    
+} 
+#card .pcard button{
+    height: 40px;
+    width: 85px;
+    font-size: 14px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin-left: 45px;
+    background-color: #E1A40B;
+}
+#cat{
+    display: grid;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#cat .category{
+    margin: 20px;
+    height: 250px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 1s;
+}
+#cat .category:hover{
+    box-shadow: 5px 5px 20px rgb(71, 71, 71);
+}
+#c1 {
+    background-image: url("picture/cameraB.jpg");
+}
+
+#c2{
+    background-image: url("picture/makeupB.jpg");
+}
+#c3{
+    background-image: url("picture/watchB.jpg");
+}
+#c4{
+    background-image: url("picture/mobileB.jpg");
+    border: 1px solid gray;
+}
+#c5{
+    background-image: url("picture/headphoneB.jpg");
+}
+#c6{
+    background-image: url("picture/FashionB.jpg");
+}
+.image{
+        width: 210px;
+        height: 255px;
+        margin-left: 30px;
+        margin-top: 15px;
+        background-size: cover;
+        border-radius: 10px;
+        background-position: center;
+}
+
+#p1{
+    background-image: url("picture/snickers.jpg");
+}
+
+#p2{
+    background-image: url("picture/perfume.jpg");
+}
+#p3{
+    background-image: url("picture/drink.jpg");
+}
+#p4{
+    background-image: url("picture/earphone.jpg");
+}
+#p5{
+    background-image: url("picture/flower.jpg");
+}
+#p6{
+    background-image: url("picture/gamepad.jpg");
+}
+#p7{
+    background-image: url("picture/glass.jpg");
+}
+#p8{
+    background-image: url("picture/hill.jpg");
+}
+#p8{
+    background-image: url("picture/icecream.jpg");
+}
+#p9{
+    background-image: url("picture/lense.jpg");
+}
+#p10{
+    background-image: url("picture/lip.jpg");
+}
+#p11{
+    background-image: url("picture/lipstick.jpg");
+}
+#p12{
+    background-image: url("picture/makeupbox.jpg");
+}
+#p13{
+    background-image: url("picture/minicar.jpg");
+}
+#p14{
+    background-image: url("picture/nike.jpg");
+}
+#p15{
+    background-image: url("picture/mouse.jpg");
+}
+#p16{
+    background-image: url("picture/shirt.jpg");
+}
+.menu{
+    margin-top: 20px;
+}
+.menu ul a li{
+    display: inline;
+    list-style: none;
+    color: rgb(218, 218, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px;
+    margin: 2px;
+    border-radius: 5px;
+    transition:background-color 1s;
+}
+.menu ul a li:hover{
+    color: cadetblue;
+    background-color: white;
+}
+.menu ul a{
+    text-decoration: none;
+}
+.head .src{
+    margin-top: 15px;
+    margin-left: 115px;
+    
+}
+
+.src input{
+    height: 35px;
+    width: 245px;
+    border-radius: 15px;
+    border: none;
+}
+.banner{
+    margin-top: 15px;
+    height: 400px;
+    border-radius: 10px;
+    background-image: url("banner/1927.jpg");
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+}
+#footer {
+    display: flex;
+    height: 350px;
+    background-color: #2B7DA9;
+    border-radius: 10px;
+}
+.myfoot{
+   
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 320px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    grid-template-columns: 1fr 2fr;
+}
+#info{
+    background-position: center;
+    background-size: cover;
+    width: 540px;
+}
+#mypro{
+    margin-left: 105px;
+    display: grid;
+    margin-top: 90px;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 10px;
+}
+.pro{
+    height:180px ;
+    width: 180px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url("profile/1708164976696.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.proinfo{
+    margin-top: -10px;
+    margin-left: 25px;
+}

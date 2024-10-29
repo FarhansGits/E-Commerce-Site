@@ -1,0 +1,166 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container {
+    top: 1px;
+    position: sticky;
+    z-index: 1000;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2fr;
+    height: 75px;
+    background-color: #2B7DA9;
+    color: white;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .head {
+    height: 60px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.menu ul a li {
+    display: inline;
+    list-style: none;
+    color: rgb(218, 218, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px;
+    margin: 2px;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+.menu ul a li:hover {
+    color: cadetblue;
+    background-color: white;
+}
+
+.menu ul a {
+    text-decoration: none;
+}
+
+.head .src {
+    margin-top: 15px;
+    margin-left: 115px;
+
+}
+
+.src input {
+    height: 35px;
+    width: 245px;
+    border-radius: 15px;
+    border: none;
+}
+#cart{
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    height: 350px;
+    grid-gap: 25px;
+    margin-top: 10px;
+    background-color: #2B7DA9;
+}
+.myCart{
+    margin: 10px;
+    
+}
+.myCart img{
+        height: 305px;
+        border-radius: 10px;
+        margin: 5px;
+        margin-top: 10px;
+}
+#pricing{
+    margin-top: 50px;
+}
+#pricing span{
+    font-size: 24px;
+}
+.buttonsec{
+    margin-top: 20px;
+    padding: 15px;
+    width: 225px;
+}
+.buttonsec #btnp{
+    height: 35px;
+    width: 64px;
+    font-size: 24px;
+}
+.buttonsec #btnm {
+    margin-left: 60px;
+    font-size: 24px;
+    height: 35px;
+    width: 64px;
+}
+.buttonsec #btnc {
+    margin-top: 20px;
+    height: 35px;
+    width: 94px;
+}
+.buttonsec #btnb {
+    margin-top: 20px;
+    margin-left: 29px;
+    height: 35px;
+    width: 94px;
+}
+.btn{
+    background-color: #ffffff;
+    color: #2B7DA9;
+    border-radius: 15px;
+    border: none;
+    
+}
+.btn:hover{
+    background-color: cornflowerblue;
+    color: #ffffff;
+}
+#footer {
+    margin-top: 10px;
+    display: flex;
+    height: 350px;
+    background-color: #2B7DA9;
+    border-radius: 10px;
+}
+
+.myfoot {
+
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 320px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    grid-template-columns: 1fr 2fr;
+}
+
+#info {
+    background-position: center;
+    background-size: cover;
+    width: 540px;
+}
+
+#mypro {
+    margin-left: 105px;
+    display: grid;
+    margin-top: 90px;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 10px;
+}
+
+.pro {
+    height: 180px;
+    width: 180px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url("profile/1708164976696.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.proinfo {
+    margin-top: -10px;
+    margin-left: 25px;
+}
